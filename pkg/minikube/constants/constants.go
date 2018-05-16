@@ -49,6 +49,7 @@ func GetMinipath() string {
 // SupportedVMDrivers is a list of supported drivers on all platforms. Currently
 // used in gendocs.
 var SupportedVMDrivers = [...]string{
+	"lxd",
 	"virtualbox",
 	"vmwarefusion",
 	"kvm",

@@ -21,6 +21,7 @@ import (
 	_ "k8s.io/minikube/pkg/minikube/drivers/hyperv"
 	_ "k8s.io/minikube/pkg/minikube/drivers/kvm"
 	_ "k8s.io/minikube/pkg/minikube/drivers/kvm2"
+	_ "k8s.io/minikube/pkg/minikube/drivers/lxd"
 	_ "k8s.io/minikube/pkg/minikube/drivers/none"
 	_ "k8s.io/minikube/pkg/minikube/drivers/virtualbox"
 	_ "k8s.io/minikube/pkg/minikube/drivers/vmwarefusion"
